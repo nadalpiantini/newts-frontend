@@ -85,7 +85,7 @@ async function checkDeepSeek(): Promise<'pass' | 'fail'> {
   }
 }
 
-function checkMemory():<'pass' | 'warn' | 'fail'> {
+function checkMemory(): 'pass' | 'warn' | 'fail' {
   const used = process.memoryUsage()
   const total = Math.pow(1024, 3) // 1GB
 

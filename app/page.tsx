@@ -244,7 +244,7 @@ const HeroArticle = ({ article }: { article: Article }) => {
           Why this matters
         </p>
         <p className="text-base sm:text-lg text-stone-200 italic leading-relaxed font-light">
-          "{article.why_it_matters}"
+          &ldquo;{article.why_it_matters}&rdquo;
         </p>
       </div>
 
@@ -314,7 +314,7 @@ const SignalCard = ({ article }: { article: Article }) => {
       {/* Why It Matters Quote */}
       <div className="pt-4 border-t border-stone-800/50">
         <p className="text-xs text-stone-500 italic font-light leading-relaxed">
-          "{article.why_it_matters}"
+          &ldquo;{article.why_it_matters}&rdquo;
         </p>
       </div>
 
@@ -333,7 +333,7 @@ const SignalCard = ({ article }: { article: Article }) => {
 const DiversityMetrics = ({ feed }: { feed: FeedResponse }) => (
   <div className="bg-stone-900/60 border border-stone-800 rounded-xl p-6 lg:p-8">
     <h3 className="text-sm font-semibold text-stone-400 mb-4 font-sans uppercase tracking-wider">
-      Today's Diversity
+      Today&rsquo;s Diversity
     </h3>
     <div className="flex items-center gap-8">
       <div className="flex-1">
